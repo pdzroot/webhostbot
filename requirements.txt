@@ -1,0 +1,4 @@
+python-telegram-bot==21.6
+Flask==3.0.3
+upstash-redis==1.2.0
+waitress==3.0.0
