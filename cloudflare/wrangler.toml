@@ -1,0 +1,13 @@
+# Sirf CLI (wrangler deploy) use karne walon ke liye. Dashboard se karoge to ye file zaroori nahi.
+name = "html-host-proxy"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+ORIGIN = "https://YOUR-APP.onrender.com"
+
+# Custom domain (domain Cloudflare par hona chahiye). Jo chahiye uncomment karo:
+# routes = [
+#   { pattern = "sites.mydomain.com", custom_domain = true },     # path mode:  sites.mydomain.com/sitename
+#   { pattern = "*.mydomain.com/*", zone_name = "mydomain.com" }, # wildcard:   sitename.mydomain.com
+# ]
